@@ -1,0 +1,30 @@
+{
+  "_events": {},
+  "_eventsCount": 0,
+  "id": "1659846754719982900",
+  "_payload": {
+    "filename": "1659846754719982900.1",
+    "fromId": "@7fe95bda0f7d5e1deb781c5710df3ad61c9719c5cdb4326d8a932016635f1eb8",
+    "id": "1659846754719982900",
+    "mentionIdList": [],
+    "text": "因为本来就是个男的",
+    "timestamp": 1639980332,
+    "type": 7,
+    "roomId": "@@e0221f0ac15873354d46e22a1259fe1b8c98185ebb67303da03f528836644aa2",
+    "toId": "@5470bd2bf59284b727a3558f4ea32382660b02f825d7221db911729e400de032"
+  },
+  "contact": {
+    "_events": {},
+    "_eventsCount": 0,
+    "id": "@7fe95bda0f7d5e1deb781c5710df3ad61c9719c5cdb4326d8a932016635f1eb8",
+    "_payload": {
+      "avatar": "/cgi-bin/mmwebwx-bin/webwxgeticon?seq=0&username=@7fe95bda0f7d5e1deb781c5710df3ad61c9719c5cdb4326d8a932016635f1eb8&skey=@crypt_acd3ac8d_2d14897addafb0fbd8b70c608b4e8bd2&chatroomid=@1d54128999dfbdcc789f2392bb27e220",
+      "friend": false,
+      "id": "@7fe95bda0f7d5e1deb781c5710df3ad61c9719c5cdb4326d8a932016635f1eb8",
+      "name": "叶芊",
+      "phone": [],
+      "star": false,
+      "type": 1
+    }
+  }
+}
