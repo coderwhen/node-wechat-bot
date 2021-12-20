@@ -6,6 +6,9 @@
 *.memory-card.json
 
 # Logs
+src/log/room
+src/log/shiliao
+src/log/test
 logs
 *.log
 npm-debug.log*

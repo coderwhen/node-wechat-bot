@@ -28,12 +28,14 @@ bot.on('room-leave', async (room) => {
 
 // 处理消息
 bot.on('message', async function (msg) {
-    const obj = {
-        ...msg
-    }
     if (msg.self()) {
         return
     }
+
+    const obj = {
+        ...msg
+    }
+
     // 获取消息发送人
     const contact = msg.talker()
     obj.contact = contact
@@ -46,8 +48,11 @@ bot.on('message', async function (msg) {
         const topic = await room.topic()
         const type = await msg.type()
         obj.room = room
-        if(/^(大掌柜-高级p6+工程师养成群)$/.test(topic)) {
-            writeFile(obj, `log/room/info--${type}--${(new Date()).getTime()}.json`)
+        if(/^(机器人测试群)$/.test(topic)) {
+            console.log(text)
+            room.say('你好主人！')
+            writeFile(obj, `log/test/info--${type}--${(new Date()).getTime()}.json`)
+            return
         }
         if (/^(闲暇游戏群|浙江财经大学|汤臣一品业主群)$/.test(topic)) {
             try {
@@ -100,4 +105,3 @@ bot.on('message', async function (msg) {
 })
 
 bot.start()
-console.log(bot.wechaty)
